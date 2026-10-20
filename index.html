@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário Academia de Heróis</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Academia de Heróis</h1>
+        <p>inscreva-se para participar da próxima missão.</p>
+    </header>
+
+    <main>
+        <section id="formulario">
+            <form>
+                <h2>Faça sua inscrição</h2>
+
+                <form action="#" method="get">
+                    <label for="nome">Nome de herói:</label>
+                    <input id="nome" name="nome" type="text" />
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" />
+
+                    <label for="idade">Idade</label>
+                    <input id="idade" name="idade" type="number" />
+
+                    <label for="equipe">Escolha sua equipe: </label>
+                    <select id="equipe" name="equipe">
+                        <option>Escolha</option>
+                        <option>Vigandores</option>
+                        <option>X-Men</option>
+                        <option>Liga da Justiça</option>
+                    </select>
+
+                    <p class="titulo-grupo">Qual poder você prefere?</p>
+
+                    <span class="opcao-inline">
+                        <input id="voar" name="poder" type="radio" />
+                        <label for="voar">Voar</label>
+                    </span>
+
+                    <span class="opcao-inline">
+                        <input id="supervelocidade" name="poder" type="radio" />
+                        <label for="supervelocidade">Supervelocidade</label>
+                    </span>
+
+                    <span class="opcao-inline">
+                        <input id="superforca" name="poder" type="radio" />
+                        <label for="superforca">Superforça</label>
+                    </span>
+
+
+                    <span class="opcao-inline">
+                        <input id="novidades" name="novidades" type="checkbox" />
+                        <label for="novidades">Quero receber novas missões</label>
+                    </span>
+
+                    <label for="heroi">Por que você quer ser um herói?</label>
+                    <textarea id="heroi" rows="5"></textarea>
+
+
+                    <button type="submit">Enviar inscrição</button>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <p>Prática de formulários HTML</p>
+    </footer>
+</body>
+
+</html>
